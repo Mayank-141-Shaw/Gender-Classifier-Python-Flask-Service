@@ -1,0 +1,21 @@
+1. After pulling this file from repository, open the terminal in the folder
+    and create a virtual environment
+
+    python -m venv env-name 
+
+2. After the env is created write a command to activate the environment
+
+    env-name\Scripts\activate.bat      ### for other than windows
+
+        OR
+
+    env-name\Scripts\Activate.ps1     ### for windows
+
+3. from terminal go inside the src folder
+    and run the command to install all required packages
+
+        pip install -r requirements.txt
+
+    the requirements.txt file must be present
+
+4. now the env and tools are setup and ready to work
