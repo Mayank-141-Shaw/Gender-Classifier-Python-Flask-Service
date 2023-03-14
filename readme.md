@@ -1,0 +1,5 @@
+This is a python microservice for gender classification.
+
+The other microservices are going to call the api of this service by sending their requests with an image payload and then this service would primarily return a response by identifying the gender of the image, i.e. ( MALE | FEMALE ) otherwise it would return NOT APPLICABLE for images its not able to classify with good accuracy.
+
+A service which uses Flask API for hosting the app and handling API requests. 
